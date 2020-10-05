@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 5, in <module>
+    from flask.cli import main
+  File "/usr/local/lib/python3.6/dist-packages/flask/__init__.py", line 21, in <module>
+    from .app import Flask
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 69, in <module>
+    from .wrappers import Request
+  File "/usr/local/lib/python3.6/dist-packages/flask/wrappers.py", line 14, in <module>
+    from werkzeug.wrappers.json import JSONMixin as _JSONMixin
+ModuleNotFoundError: No module named 'werkzeug.wrappers.json'; 'werkzeug.wrappers' is not a package
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 5, in <module>
+    from flask.cli import main
+  File "/usr/local/lib/python3.6/dist-packages/flask/__init__.py", line 21, in <module>
+    from .app import Flask
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 69, in <module>
+    from .wrappers import Request
+  File "/usr/local/lib/python3.6/dist-packages/flask/wrappers.py", line 14, in <module>
+    from werkzeug.wrappers.json import JSONMixin as _JSONMixin
+ModuleNotFoundError: No module named 'werkzeug.wrappers.json'; 'werkzeug.wrappers' is not a package
+STARTED
