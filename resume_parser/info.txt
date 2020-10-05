@@ -1,0 +1,11 @@
+First start with setup:
+    - Make sure to run the file with sudo permission
+    - type: `./setup` in the terminal
+
+To run the server run run_server file
+    - type: `./run_server` in the terminal
+
+Resume Parser Parameters:
+    url: /upload_resume
+    params:
+        resume: resume file to parse
