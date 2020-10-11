@@ -1,4 +1,5 @@
 from pyresparser import ResumeParser
+from parser import resume_parser
 import os
 import requests
 
